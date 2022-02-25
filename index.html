@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Urimel Passeios</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel='stylesheet' type='text/css' media='screen' href='normalize.css'>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+
+<!--Google Fonts Link-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=
+Anton&family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,300&family=
+Kalam:wght@300&family=Oswald:wght@600&family=Rowdies:wght@300&family=
+Staatliches&family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+<!------------------------------------------------------------------------------------------------------------------->
+
+<!--Bootstrap Links-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!------------------------------------------------------------------------------------------------------------------------->
+
+<!--Font Awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
+integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<!------------------------------------------------------------------------------------------------------------------------->
+</head>
+
+<body style="background-color: rgb(152, 205, 248);">
+
+<header>
+<!--Barra de Navegação-->
+<div id="header">
+<picture>
+<img src="logo.png">
+</picture>
+
+
+<a class="logo" href="">Urimel Passeios</a>
+<nav id="nav">
+<button  id="btn-mobile">
+<span></span>
+</button>
+<ul id="menu" role="menu">
+<li><a href="">Quem Somos</a></li>
+<li><a href="">Nossa MIssão</a></li>
+<li><a href="">Passeio de Barco</a></li>
+<li><a href="">Prancha Vip</a></li>
+<li><a href="">Ilha Tuor</a></li>
+<button id="zap-button"><a href="" >Agendar</a></button>
+</ul>
+</nav>
+</div>
+
+
+<div class="container-titulos"> 
+<div class="container-logo"></div>
+<h1>Urimel Passeios</h1>
+<h2>Fernando de Noronha</h2>
+<h3>Venha se aventurar na ilha do amor</h3>
+<a href="" class="big-btn-zap">Agendar</a>
+</div>
+
+
+
+
+</header>
+<!-------------------------------------------------------------------------->
+
+<!--Conteudo do Site-->
+<!--Sessão quem somos-->
+
+<section>
+<h1 class="titulo-conteudo">Quem Somos</h1>
+<p class="subtitulo-conteudo">
+Somos uma empresa focada em realizar passeios na Ilha de
+Fernando de Noronha, procuramos proporcionar para os nossos clientes as 
+melhores experiências mais inesquecíveis do mundo.
+</p>
+
+
+
+<div id="imagem-1"></div>
+
+<div class="container">
+    <div class="image-container">
+        <div><img src="slide-1-01.jpg" id="content1" class="active">
+        <div><img src="slide-1-02.jpg" id="content2"></div>
+        <div><img src="slide-1-03.jpg" id="content3"></div>
+        <div></div><img src="slide-1-04.jpg" id="content4"></div>
+
+    
+    </div>
+
+    <button id="prev" onclick="prev()"> &lt; </button>
+    <button id="next" onclick="next()"> &gt; </button>
+
+
+    <div class="dot-container">
+        <button onclick = "dot(1)"></button>
+        <button onclick = "dot(2)"></button>
+        <button onclick = "dot(3)"></button>
+        <button onclick = "dot(4)"></button>
+    </div>
+    
+</div>
+
+
+
+</section>
+
+
+
+
+
+<section>
+<h1 class="titulo-conteudo">Nossa Missão</h1>
+<p class="subtitulo-conteudo">
+Garantir o maximo de satisfação para os nossos clientes
+para que os mesmos possam desfrutar o melhor dos nossos serviços e de todas 
+as maravilhas que a está ilha tem de mais bela e o que ela pode oferecer em conjunto
+com a natureza.
+</p>
+</section>
+
+<div id="imagem-2"></div>
+
+
+
+
+<section>
+<h1 class="titulo-conteudo">Passeio de Barco</h1>
+<p class="subtitulo-conteudo">
+Iniciamos o recolhimento na pousada a partir das 07:30 e o passeio se encerra por 
+volta das 11:30. O percurso maritimo inicia na Praia do Porto de Santo Antonio, 
+indo em direção as ilhas secundarias e retorna custeando as praias do mar dentro
+que são: Praia da Biboca, Cachorro, Meio, Conceição, Boldró, Bode, Americano,
+Cacimba do Padré, Baía dos Porcos, Baía do Sancho, Baía dos Golfinhos, Enseada do 
+Portal e Ponta da Sapata.
+Na volta paramos na praia do Sancho para mergulho livre e depois retornamos a
+praia do Porto. É feita em embarcação tradicional.
+Nesse passeio temos a possibilidade de ver o espetáculo dos Golfinhos Rotadores.<br>
+INCLUSO<br>
+Passeio de Barco   <br>
+Transfer <br>
+Guia credenciado <br><br>
+
+OBS: Para Fazer o passeio é necessário ter o ingresso do Parque Nacional Marinho.
+</p>
+
+
+
+
+
+</section>
+
+<div id="imagem-3"></div>
+
+
+
+<section>
+<h1 class="titulo-conteudo">Prancha Vip</h1>
+<p class="subtitulo-conteudo">
+O Passeio dura aproximadamente 3 horas, realizado no período da tarde. Iniciamos o 
+recolhimento nas pousadas a partir das 14:00. Messe Passeio realizamos o mergulho
+a reboque, onde você é puxado pela lancha podendo mergulhar para fazer manobras 
+e admirar a fauna da ilha. Após o mergulho servimos um delicioso churrasco 
+de peixe.<br>
+INCLUSO<br>
+Transfer<br>
+Alimentação<br>
+Mergulho a reboque<br><br>
+
+Todo o suporte e instruções para realizar a reboque são repassados pelos nossos
+instrutores que são totalmante capacitados.<br> <br>
+
+Itínerário: Na região portuária realizamos o mergulho a reboque, paramos para a foto
+no Morro Dois Irmãos. Depois retornamos a praia da Conceição, onde ancoramos para 
+banho e mergulho livre, nessa parada iremos preparar e servir nosso famoso churrasco
+de peixe.
+O passeio termina com um belo pôr do sol a bordo.
+</p>
+</section>
+
+<div id="imagem-4"></div>
+
+
+
+
+<section>
+<h1 class="titulo-conteudo">Ilha Tuor</h1>
+<p class="subtitulo-conteudo">
+O passeio dura o dia inteiro, Iniciando o recolhimento nas pousadas a partir das
+08:00 e termina após o pôr do sol. <br>
+Passamos por todas as praias da ilha (exceto Conceição, Meio e Cachorro) e os 
+pricipais pontos turísticos (museus e fortalezas). <br>
+O passeio é realizado em um carro 4x4 com capacidade para 10 pessoas e 
+aconpanhado de um guia credenciado.
+Realizamos paradas  em 3 praias pra banho, sendo elas: Sancho, Sueste e uma
+outra praia de escolha do guia acordo com a tábua da maré. <br>
+Fazemos pausa para almoço (não incluso) e o passeio termina no fotinho do 
+baldró para comtemplarmos um belo pôr do sol.<br><br>
+INCLUSO<br>
+Passeio no carro 4x4<br>
+Transfer<br>
+Guia credenciado<br> <br>
+
+OBS: Para Fazer o passeio é necessário ter o ingresso do Parque Nacional 
+MARINHO.
+
+</p>
+</section>
+
+<div id="imagem-5"></div>
+
+
+<footer>
+<div class="footer-conteudo">
+<div class="container-titulo-footer">
+<h1>Urimel Passeios</h1> 
+</div>
+<h1 class="footer-texto">Contato e Redes Sociais</h1>
+<div class="content-redes-sociais">
+<a href="" class="mini-buttons"><img src="mini-zap.png"></a></span>
+<a href="" class="mini-buttons"><img src="mini-insta.png"></a></span>
+<a href="" class="mini-buttons"><img src="mini-email.png"></a></span>
+</div>
+
+
+</div>
+
+</footer>
+
+
+
+
+
+<!-------------------------------------------------------------------------->
+<!--Javascript referente ao nav bar-->
+<script src="nav.js"></script>
+<script src="script.js"></script>
+
+
+</script>
+
+<!-------------------------------------------------------------------------->
+
+
+
+
+<!--------------------------------Java Script e JQuery---->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+crossorigin="anonymous"></script>
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+</body>
+</html>
